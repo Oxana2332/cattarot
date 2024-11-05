@@ -20,7 +20,6 @@
 
 .text {
     font-family: "Comfortaa", serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     line-height: 1.5;
@@ -28,7 +27,6 @@
 
 .title {
     font-family: "Comfortaa", serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
