@@ -1,4 +1,4 @@
-.main-bt {
+.main-btn {
     background-color: rgba(250, 235, 215, 0.705);
     height: 5vh;
     position: sticky;
@@ -11,32 +11,39 @@
 }
 
 .main {
-    text-align: center;
     color: aliceblue;
+    text-align: center;
     background-image: url(../img/2background.jpeg);
     background-size: contain;
     margin: 5%;
 }
 
+.advice {
+    color: blanchedalmond;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.advice__gif {
+    width: 45vw;
+}
+
 .text {
     font-family: "Comfortaa", serif;
+    font-size: 1em;
     font-weight: 300;
-    font-style: normal;
-    line-height: 1.5;
 }
 
 .title {
     font-family: "Comfortaa", serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 1.2em;
+    font-weight: 700;
 }
 
 .comforter-regular {
     font-family: "Comforter", cursive;
-    font-weight: 500;
-    font-style: normal;
     font-size: 2em;
+    font-weight: 500;
 }
 
 .arcana {
@@ -52,9 +59,9 @@
     width: 15vw;
     padding: 5%;
     margin: 1% auto;
-    word-break: break-all;
-    font-size: 0.8em;
     color: aliceblue;
+    font-size: 0.8em;
+    word-break: break-all;
 }
 
 .arcana__img {
@@ -65,34 +72,33 @@
 .arcana-value {
     margin: 5% auto;
     padding: 10%;
-    width: 70vw;
     background-color: rgba(0, 0, 0, 0.329);
     border-radius: 10%;
 }
 
-.advice-btn {
-    background-color: rgba(0, 0, 0, 0);
-    border: 0px;
-}
-
-.advice-img {
-    width: 70vw;
-}
-
-.conteiner {
-    color: blanchedalmond;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 5%;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .advice-img {
-        width: 17vw;
-    }
-
     .main {
         background-image: url(../img/1background.jpeg);
+    }
+
+    .advice {
+        font-size: 2em;
+    }
+
+    .advice__gif {
+        width: 35vw;
+    }
+
+    .text {
+        font-size: 1.2em;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .comforter-regular {
+        font-size: 3em;
     }
 
     .arcana__link {
@@ -105,20 +111,24 @@
         background-image: url(../img/0background.jpeg);
     }
 
-    .conteiner {
-        font-size: 75px;
+    .advice {
+        font-size: 3em;
     }
 
-    .advice-img {
-        width: 7vw;
+    .advice__gif {
+        width: 20vw;
+    }
+
+    .text {
+        font-size: 1.5em;
     }
 
     .title {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .comforter-regular {
-        font-size: 2.5em;
+        font-size: 4em;
     }
 
     .arcana__link {
@@ -127,12 +137,10 @@
 
     .arcana__img {
         width: 12vw;
-        margin: 5% auto;
     }
 
     .arcana-value {
         margin: 15% auto;
         padding: 5%;
-        width: 50vw;
     }
 }
